@@ -1,0 +1,93 @@
+.form-style {
+	font-family: "Open Sans Condensed", arial, sans;
+	width: 500px;
+	padding: 30px;
+	background: #FFFFFF;
+	margin: 50px auto;
+	box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.22);
+	opacity: 0.8;
+}
+body {
+	background-image: url("img/background2.jpg");
+	height: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+h2 {
+	background: #4D4D4D;
+	text-transform: uppercase;
+	font-family: "Open Sans Condensed", sans-serif;
+	color: #797979;
+	font-size: 18px;
+	font-weight: 100;
+	padding: 20px;
+	margin: -30px -30px 30px -30px;
+}
+input[type="text"],
+input[type='email'],
+input[type='number'],
+input[type='password'] {
+	box-sizing: border-box;
+	outline: none;
+	display: f;
+	width: 100%;
+	font-size: 30px;
+	padding: 7px;
+	border: none;
+	border-bottom: 1px solid #ddd;
+	background: transparent;
+	margin-bottom: 10px;
+	height: 45px;
+}
+input[type='submit'] {
+	box-shadow: inset 0px 1px 0px 0px #45D6D6;
+	background-color: #2CBBBB;
+	border: 1px solid #27A0A0;
+	display: inline-block;
+	cursor: pointer;
+	color: #FFFFFF;
+	font-size: 14px;
+	padding: 8px 18px;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+input[type='submit']:hover {
+	background-color: #34CACA;
+	background: linear-gradient(to bottom, #34CACA 5%, #30C9C9 100%);
+}
+
+a{
+	box-shadow: inset 0px 1px 0px 0px #45D6D6;
+	background-color: #2CBBBB;
+	border: 1px solid #27A0A0;
+	display: inline-block;
+	cursor: pointer;
+	color: #FFFFFF;
+	font-size: 14px;
+	padding: 8px 18px;
+	text-decoration: none;
+	text-transform: uppercase;			
+}
+a:hover {
+	background-color: #34CACA;
+	background: linear-gradient(to bottom, #34CACA 5%, #30C9C9 100%);
+}
+#hr1{
+	overflow: visible; /* For IE */
+    padding: 0;
+    border: none;
+    border-bottom: medium solid silver;
+    color: grey;
+    text-align: center;
+}
+#hr1:after {
+	content : "";
+    /*content: "(^_^)(~_~)(+_+)";*/
+    display: inline-block;
+    position: relative;
+    top: -0.7em;
+    font-size: 1.5em;
+    padding: 0 0.25em;
+    background: white;
+}
